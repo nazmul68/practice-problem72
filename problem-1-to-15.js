@@ -1,41 +1,41 @@
 //******  practice problem 1 ******//
-const gaveTk = 1000;
-const expense = 700;
-const returnTk = gaveTk - expense;
-// console.log('The shopkeeper will return tk:' , returnTk);
+// const gaveTk = 1000;
+// const expense = 700;
+// const returnTk = gaveTk - expense;
+// // console.log('The shopkeeper will return tk:' , returnTk);
 
 
 //******  practice problem 2 ******//
-const bioMark = 91;
-const mathMark = 72;
-const chemMark = 62;
-const phyMark= 70;
-const banMark = 81;
-const totalMarks = bioMark + mathMark + chemMark + phyMark + banMark ;
-const average = totalMarks/5;
-// console.log(average);
-// console.log(parseInt(average));
+// const bioMark = 91;
+// const mathMark = 72;
+// const chemMark = 62;
+// const phyMark= 70;
+// const banMark = 81;
+// const totalMarks = bioMark + mathMark + chemMark + phyMark + banMark ;
+// const average = totalMarks/5;
+// // console.log(average);
+// // console.log(parseInt(average));
 
 
 //******  practice problem 3 ******//
-const str1 = 'I am going to be ';
-const str2 = 'an awesome web developer';
-// const combinedStr = str1 + str2;
-const combinedStr = str1.concat(str2); /*good practice*/
-// console.log(combinedStr);
+// const str1 = 'I am going to be ';
+// const str2 = 'an awesome web developer';
+// // const combinedStr = str1 + str2;
+// const combinedStr = str1.concat(str2); /*good practice*/
+// // console.log(combinedStr);
 
 
 
 //******  practice problem 4 ******//
-const number = 119;
-const dividedBy = 5;
-const remainder = number % dividedBy;
+// const number = 119;
+// const dividedBy = 5;
+// const remainder = number % dividedBy;
 // console.log('The remainder is:' ,remainder);
 
 
 
 //******  practice problem 5 ******//
-var price = 33  /* use semicoln end of a number */
+// var price = 33  /* use semicoln end of a number */
 // var name - sabana  /* must use equal sign between variable & its value , also use quotation sign('') when write an string */
 
 // var boxName  = 'Cocola; /* string should be written inside quotation mark , otherwise it would not consider as string */
@@ -51,15 +51,15 @@ var price = 33  /* use semicoln end of a number */
 
 
 //******  practice problem 6 ******//
-const fruitsArr = ['Apple', 'Banana', 'Orange'];
+// const fruitsArr = ['Apple', 'Banana', 'Orange'];
 // console.log( "banana's index is:",fruitsArr.indexOf('Banana'));
-const ansArr = (fruitsArr.splice(1,1,"Mango"));
+// const ansArr = (fruitsArr.splice(1,1,"Mango"));
 // console.log(fruitsArr);
 
 
 
 //******  practice problem 7 ******//
-const result = 40;
+// const result = 40;
 
 // if(result >= 0 && result <40 ){
 //     console.log('Your result is fail');
@@ -83,9 +83,9 @@ const result = 40;
 
 
 //******  practice problem 8 ******//
-const num1 = 1003;
-const num2 = 7009;
-const num3 = 4005;
+// const num1 = 1003;
+// const num2 = 7009;
+// const num3 = 4005;
 // if(num1>num2 && num1>num3){
 //     console.log('Largest number is:' ,num1)
 // }
@@ -228,20 +228,20 @@ const num3 = 4005;
 
 //******  practice problem 15 ******//
 
-let dailyRoutine = ['1.Unlock module before 8pm', '2.Watch videos ontime', '3.Take notes while watching videos', '4.Practice after complete watching videos', '5. If dont understand something'];
+// let dailyRoutine = ['1.Unlock module before 8pm', '2.Watch videos ontime', '3.Take notes while watching videos', '4.Practice after complete watching videos', '5. If dont understand something'];
 
-for( let j = 10; j >= 1 ; j--){
-    console.log(j);
+// for( let j = 10; j >= 1 ; j--){
+//     console.log(j);
 
-    /**nested loop start**/
-    for(let i = 0 ; i < dailyRoutine.length; i++ ){
-       let dailyTask = dailyRoutine[i];
-        console.log(dailyTask);
-        if(dailyTask === dailyRoutine[4]){
-            console.log('>> Go to support session.');
-        }
-    }
-    /**nested loop end**/
+//     /**nested loop start**/
+//     for(let i = 0 ; i < dailyRoutine.length; i++ ){
+//        let dailyTask = dailyRoutine[i];
+//         console.log(dailyTask);
+//         if(dailyTask === dailyRoutine[4]){
+//             console.log('>> Go to support session.');
+//         }
+//     }
+//     /**nested loop end**/
 
-}
+// }
 
